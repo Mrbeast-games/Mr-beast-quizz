@@ -418,19 +418,24 @@ function closePopupL() {
 }  
 
 
-
 // POPUP Limite diÃ¡rio quando bate X valor
 function verificarValor() {
     if (valor >= 330 && valor < 350) {
         // Popup para valor >= 1362.60 e < 2725.20
         showPopupL();
     }
-    else if (valor >= 582 && valor < 582) 
+    else if (valor >= 540 && valor < 582) 
         // Popup para valor >= 2725.20 e < 4087.8
         showPopupL(); 
+
+        else if (valor >= 582 && valor < 823) 
+            // Popup para valor >= 2725.20 e < 4087.8
+            showPopupL();    
+            
+            else if (valor >= 823&& valor < 840) 
+                // Popup para valor >= 2725.20 e < 4087.8
+                showPopupL(); 
 }
-
-
 
 
 function fecharPopupEAgendarReaparecimento() {
