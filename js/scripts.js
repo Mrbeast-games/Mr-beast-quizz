@@ -425,7 +425,9 @@ function verificarValor() {
         // Popup para valor >= 1362.60 e < 2725.20
         showPopupL();
     }
-    
+    else if (valor >= 582 && valor < 582) 
+        // Popup para valor >= 2725.20 e < 4087.8
+        showPopupL(); 
 }
 
 
